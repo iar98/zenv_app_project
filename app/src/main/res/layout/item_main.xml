@@ -28,7 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="test"
-            android:textSize="15sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="12sp"
             android:textStyle="bold"
             android:textColor="@color/dark_blue"/>
         <Space
@@ -39,7 +40,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="tes"
-            android:textSize="12.41sp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="9.41sp"
             android:maxLength="100"
             android:textColor="@color/dark_blue"/>
         <Space
@@ -50,7 +52,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="tes"
-            android:textSize="14sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="11sp"
             android:maxLength="100"
             android:textColor="@color/dark_blue"/>
 

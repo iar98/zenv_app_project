@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.zenv.adapters.RvItem
 import com.example.zenv.databinding.ActivityDashboardBinding
 import com.example.zenv.model.ItemModel
-import kotlin.math.log
 
 class DashboardActivity : AppCompatActivity() {
 

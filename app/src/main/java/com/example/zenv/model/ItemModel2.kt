@@ -1,7 +1,7 @@
 package com.example.zenv.model
 
-data class ItemModel(
-    // popular data
+data class ItemModel2(
+    // newst data
     val image: Int,
     val name: String,
     val desc: String,
