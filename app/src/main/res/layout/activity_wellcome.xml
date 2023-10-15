@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".WellcomeActivity">
+
+    <ImageView
+        android:id="@+id/ivZenV"
+        android:layout_width="143dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivZenV" />
+
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Temukan wawasan baru \nkesempatan belajar menarik!"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvWelcome"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcome" />
+
+    <Button
+        android:id="@+id/btnLoginGoogle"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/glass"
+        android:drawableStart="@drawable/icon_google"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingHorizontal="30dp"
+        android:paddingEnd="76dp"
+        android:text="Masuk dengan Google"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvIntro"/>
+
+    <Button
+        android:id="@+id/btnLoginFacebook"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/glass"
+        android:drawableStart="@drawable/icon_facebook"
+        android:fontFamily="@font/poppins_regular"
+        android:paddingHorizontal="30dp"
+        android:paddingEnd="50dp"
+        android:text="Masuk dengan Facebook"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoginGoogle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Belum memiliki akun?"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoginFacebook" />
+
+    <TextView
+        android:id="@+id/linkRegister"
+        android:layout_width="63dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Register"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:linksClickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoginFacebook" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
